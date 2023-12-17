@@ -1,0 +1,17 @@
+.wrapper {
+	@apply grid grid-cols-4 gap-10;
+
+	.item {
+		@apply rounded-lg bg-white text-zinc-600 p-6 shadow;
+
+		> div {
+			&:first-child {
+				@apply mb-2;
+			}
+
+			&:last-child {
+				@apply text-2xl font-semibold;
+			}
+		}
+	}
+}
